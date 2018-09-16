@@ -55,6 +55,28 @@ namespace Culinarium.Services.Services
             return result;
         }
 
+        public ResultDto<IngredientDto> Update(UpdateIngredientViewModel ingredientViewModel)
+        {
+            var result = new ResultDto<IngredientDto>();
+            if (!_recipeRepository.Exist(x => x.Id == ingredientViewModel.Id))
+            {
+                result.Errors.Add(_Errors.IngredientDoesNotExist);
+            }
+            if (result.IsError)
+            {
+                return result;
+            }
+            var ingredient = _mapper.Map<Ingredient>(ingredientViewModel);
+            if (_ingredientRepository.Update(ingredient) == 0)
+            {
+                result.Errors.Add(_Errors.SaveFail);
+                return result;
+            }
+            result.SuccessResult = _mapper.Map<IngredientDto>(ingredient);
+
+            return result;
+        }
+
         public ResultDto<BaseDto> Delete(int ingredientId)
         {
             var result = new ResultDto<BaseDto>();

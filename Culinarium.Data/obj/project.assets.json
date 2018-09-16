@@ -671,11 +671,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\C#\\Culinarium\\Culinarium.Data\\Culinarium.Data.csproj",
+      "projectUniqueName": "E:\\C#\\CulinariumApi\\Culinarium.Data\\Culinarium.Data.csproj",
       "projectName": "Culinarium.Data",
-      "projectPath": "E:\\C#\\Culinarium\\Culinarium.Data\\Culinarium.Data.csproj",
+      "projectPath": "E:\\C#\\CulinariumApi\\Culinarium.Data\\Culinarium.Data.csproj",
       "packagesPath": "C:\\Users\\Maciek\\.nuget\\packages\\",
-      "outputPath": "E:\\C#\\Culinarium\\Culinarium.Data\\obj\\",
+      "outputPath": "E:\\C#\\CulinariumApi\\Culinarium.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",

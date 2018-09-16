@@ -36,6 +36,22 @@ namespace Culinarium.Controllers
             return Ok(result);
         }
 
+        [HttpPost("update")]
+        public IActionResult UpdateIngredient([FromBody]UpdateIngredientViewModel ingredientViewModel)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            var result = _ingredientService.Update(ingredientViewModel);
+            if (result.IsError)
+            {
+                return BadRequest(result);
+            }
+
+            return Ok(result);
+        }
+
         [HttpDelete("{id}")]
         public IActionResult DeleteIngredient(int id)
         {

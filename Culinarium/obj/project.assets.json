@@ -13547,11 +13547,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\C#\\Culinarium\\Culinarium\\Culinarium.csproj",
+      "projectUniqueName": "E:\\C#\\CulinariumApi\\Culinarium\\Culinarium.csproj",
       "projectName": "Culinarium",
-      "projectPath": "E:\\C#\\Culinarium\\Culinarium\\Culinarium.csproj",
+      "projectPath": "E:\\C#\\CulinariumApi\\Culinarium\\Culinarium.csproj",
       "packagesPath": "C:\\Users\\Maciek\\.nuget\\packages\\",
-      "outputPath": "E:\\C#\\Culinarium\\Culinarium\\obj\\",
+      "outputPath": "E:\\C#\\CulinariumApi\\Culinarium\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
@@ -13572,11 +13572,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "E:\\C#\\Culinarium\\Culinarium.Repository\\Culinarium.Repository.csproj": {
-              "projectPath": "E:\\C#\\Culinarium\\Culinarium.Repository\\Culinarium.Repository.csproj"
+            "E:\\C#\\CulinariumApi\\Culinarium.Repository\\Culinarium.Repository.csproj": {
+              "projectPath": "E:\\C#\\CulinariumApi\\Culinarium.Repository\\Culinarium.Repository.csproj"
             },
-            "E:\\C#\\Culinarium\\Culinarium.Services\\Culinarium.Services.csproj": {
-              "projectPath": "E:\\C#\\Culinarium\\Culinarium.Services\\Culinarium.Services.csproj"
+            "E:\\C#\\CulinariumApi\\Culinarium.Services\\Culinarium.Services.csproj": {
+              "projectPath": "E:\\C#\\CulinariumApi\\Culinarium.Services\\Culinarium.Services.csproj"
             }
           }
         }

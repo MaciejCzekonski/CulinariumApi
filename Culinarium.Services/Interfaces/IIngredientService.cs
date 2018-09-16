@@ -9,6 +9,7 @@ namespace Culinarium.Services.Interfaces
     public interface IIngredientService
     {
         ResultDto<RecipeDto> Insert(IngredientViewModel ingredientViewModel);
+        ResultDto<RecipeDto> Update(UpdateIngredientViewModel ingredientViewModel);
         ResultDto<BaseDto> Delete(int ingredientId);
     }
 }
