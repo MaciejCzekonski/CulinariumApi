@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Culinarium", "Culinarium\Culinarium.csproj", "{61260F1A-4335-4E69-990F-A083767174D9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B8DDDBBF-4D50-46C1-9EB8-39EAF5342532} = {B8DDDBBF-4D50-46C1-9EB8-39EAF5342532}
+		{1E3AE6DC-940A-4595-8E96-1F00550AD632} = {1E3AE6DC-940A-4595-8E96-1F00550AD632}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Culinarium.Data", "Culinarium.Data\Culinarium.Data.csproj", "{1B57D918-268D-46E4-B141-F60C46FB8A0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Culinarium.Services", "Culinarium.Services\Culinarium.Services.csproj", "{B8DDDBBF-4D50-46C1-9EB8-39EAF5342532}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1B57D918-268D-46E4-B141-F60C46FB8A0C} = {1B57D918-268D-46E4-B141-F60C46FB8A0C}
+		{1E3AE6DC-940A-4595-8E96-1F00550AD632} = {1E3AE6DC-940A-4595-8E96-1F00550AD632}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Culinarium.Repository", "Culinarium.Repository\Culinarium.Repository.csproj", "{1E3AE6DC-940A-4595-8E96-1F00550AD632}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1B57D918-268D-46E4-B141-F60C46FB8A0C} = {1B57D918-268D-46E4-B141-F60C46FB8A0C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61260F1A-4335-4E69-990F-A083767174D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61260F1A-4335-4E69-990F-A083767174D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61260F1A-4335-4E69-990F-A083767174D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61260F1A-4335-4E69-990F-A083767174D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B57D918-268D-46E4-B141-F60C46FB8A0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B57D918-268D-46E4-B141-F60C46FB8A0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B57D918-268D-46E4-B141-F60C46FB8A0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B57D918-268D-46E4-B141-F60C46FB8A0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8DDDBBF-4D50-46C1-9EB8-39EAF5342532}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8DDDBBF-4D50-46C1-9EB8-39EAF5342532}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8DDDBBF-4D50-46C1-9EB8-39EAF5342532}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8DDDBBF-4D50-46C1-9EB8-39EAF5342532}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E3AE6DC-940A-4595-8E96-1F00550AD632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E3AE6DC-940A-4595-8E96-1F00550AD632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E3AE6DC-940A-4595-8E96-1F00550AD632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E3AE6DC-940A-4595-8E96-1F00550AD632}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {092BC053-7738-4192-B98C-6DB6FA2B3D08}
+	EndGlobalSection
+EndGlobal
