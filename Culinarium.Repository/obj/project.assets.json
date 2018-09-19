@@ -3542,27 +3542,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Maciek\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
+    "C:\\Users\\m.czekonski\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\C#\\CulinariumApi\\Culinarium.Repository\\Culinarium.Repository.csproj",
+      "projectUniqueName": "C:\\Users\\m.czekonski\\Documents\\GitHub\\CulinariumApi\\Culinarium.Repository\\Culinarium.Repository.csproj",
       "projectName": "Culinarium.Repository",
-      "projectPath": "E:\\C#\\CulinariumApi\\Culinarium.Repository\\Culinarium.Repository.csproj",
-      "packagesPath": "C:\\Users\\Maciek\\.nuget\\packages\\",
-      "outputPath": "E:\\C#\\CulinariumApi\\Culinarium.Repository\\obj\\",
+      "projectPath": "C:\\Users\\m.czekonski\\Documents\\GitHub\\CulinariumApi\\Culinarium.Repository\\Culinarium.Repository.csproj",
+      "packagesPath": "C:\\Users\\m.czekonski\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\m.czekonski\\Documents\\GitHub\\CulinariumApi\\Culinarium.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Maciek\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Users\\m.czekonski\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -3574,8 +3571,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "E:\\C#\\CulinariumApi\\Culinarium.Data\\Culinarium.Data.csproj": {
-              "projectPath": "E:\\C#\\CulinariumApi\\Culinarium.Data\\Culinarium.Data.csproj"
+            "C:\\Users\\m.czekonski\\Documents\\GitHub\\CulinariumApi\\Culinarium.Data\\Culinarium.Data.csproj": {
+              "projectPath": "C:\\Users\\m.czekonski\\Documents\\GitHub\\CulinariumApi\\Culinarium.Data\\Culinarium.Data.csproj"
             }
           }
         }

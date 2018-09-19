@@ -58,9 +58,13 @@ namespace Culinarium.Services.Services
         public ResultDto<IngredientDto> Update(UpdateIngredientViewModel ingredientViewModel)
         {
             var result = new ResultDto<IngredientDto>();
-            if (!_recipeRepository.Exist(x => x.Id == ingredientViewModel.Id))
+            if (!_ingredientRepository.Exist(x => x.Id == ingredientViewModel.Id))
             {
                 result.Errors.Add(_Errors.IngredientDoesNotExist);
+            }
+            if(!_recipeRepository.Exist(x => x.Id == ingredientViewModel.RecipeId))
+            {
+                result.Errors.Add(_Errors.RecipeDoesNotExist);
             }
             if (result.IsError)
             {

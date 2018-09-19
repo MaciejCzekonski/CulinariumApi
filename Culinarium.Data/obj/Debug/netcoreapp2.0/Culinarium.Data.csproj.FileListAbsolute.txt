@@ -34,3 +34,12 @@ E:\C#\Culinarium\Culinarium.Data\obj\Debug\netcoreapp2.0\Culinarium.Data.Assembl
 E:\C#\Culinarium\Culinarium.Data\obj\Debug\netcoreapp2.0\Culinarium.Data.AssemblyInfo.cs
 E:\C#\Culinarium\Culinarium.Data\obj\Debug\netcoreapp2.0\Culinarium.Data.dll
 E:\C#\Culinarium\Culinarium.Data\obj\Debug\netcoreapp2.0\Culinarium.Data.pdb
+C:\Users\m.czekonski\Documents\GitHub\CulinariumApi\Culinarium.Data\bin\Debug\netcoreapp2.0\Culinarium.Data.deps.json
+C:\Users\m.czekonski\Documents\GitHub\CulinariumApi\Culinarium.Data\bin\Debug\netcoreapp2.0\Culinarium.Data.dll
+C:\Users\m.czekonski\Documents\GitHub\CulinariumApi\Culinarium.Data\bin\Debug\netcoreapp2.0\Culinarium.Data.pdb
+C:\Users\m.czekonski\Documents\GitHub\CulinariumApi\Culinarium.Data\obj\Debug\netcoreapp2.0\Culinarium.Data.csprojAssemblyReference.cache
+C:\Users\m.czekonski\Documents\GitHub\CulinariumApi\Culinarium.Data\obj\Debug\netcoreapp2.0\Culinarium.Data.csproj.CoreCompileInputs.cache
+C:\Users\m.czekonski\Documents\GitHub\CulinariumApi\Culinarium.Data\obj\Debug\netcoreapp2.0\Culinarium.Data.AssemblyInfoInputs.cache
+C:\Users\m.czekonski\Documents\GitHub\CulinariumApi\Culinarium.Data\obj\Debug\netcoreapp2.0\Culinarium.Data.AssemblyInfo.cs
+C:\Users\m.czekonski\Documents\GitHub\CulinariumApi\Culinarium.Data\obj\Debug\netcoreapp2.0\Culinarium.Data.dll
+C:\Users\m.czekonski\Documents\GitHub\CulinariumApi\Culinarium.Data\obj\Debug\netcoreapp2.0\Culinarium.Data.pdb

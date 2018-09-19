@@ -664,27 +664,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Maciek\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
+    "C:\\Users\\m.czekonski\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\C#\\CulinariumApi\\Culinarium.Data\\Culinarium.Data.csproj",
+      "projectUniqueName": "C:\\Users\\m.czekonski\\Documents\\GitHub\\CulinariumApi\\Culinarium.Data\\Culinarium.Data.csproj",
       "projectName": "Culinarium.Data",
-      "projectPath": "E:\\C#\\CulinariumApi\\Culinarium.Data\\Culinarium.Data.csproj",
-      "packagesPath": "C:\\Users\\Maciek\\.nuget\\packages\\",
-      "outputPath": "E:\\C#\\CulinariumApi\\Culinarium.Data\\obj\\",
+      "projectPath": "C:\\Users\\m.czekonski\\Documents\\GitHub\\CulinariumApi\\Culinarium.Data\\Culinarium.Data.csproj",
+      "packagesPath": "C:\\Users\\m.czekonski\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\m.czekonski\\Documents\\GitHub\\CulinariumApi\\Culinarium.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Maciek\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Users\\m.czekonski\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"

@@ -21,11 +21,13 @@ namespace Culinarium.Services.MappingProfile
             CreateMap<Picture, PictureChildDto>();
             CreateMap<Rating, RecipeRatingDto>();
             CreateMap<Ingredient, RecipeIngredientDto>();
+            CreateMap<Ingredient, IngredientDto>();
 
             CreateMap<RecipeViewModel, Recipe>();
             CreateMap<UpdateRecipeViewModel, Recipe>();
             CreateMap<RatingViewModel, Rating>();
             CreateMap<IngredientViewModel, Ingredient>();
+            CreateMap<UpdateIngredientViewModel, Ingredient>();
         }
     }
 }
